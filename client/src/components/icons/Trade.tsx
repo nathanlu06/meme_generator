@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SvgTrade = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 25" {...props}><path fill="#000" fillRule="evenodd" d="M1.247 11.697a2.133 2.133 0 0 1 0-3.017l3.556-3.555a2.133 2.133 0 0 1 3.017 0l3.555 3.555a2.133 2.133 0 0 1-2.93 3.1v6.587a2.133 2.133 0 0 1-4.267 0v-6.588a2.134 2.134 0 0 1-2.931-.082M12.625 13.303a2.133 2.133 0 0 0 0 3.017l3.555 3.555a2.133 2.133 0 0 0 3.017 0l3.556-3.555a2.133 2.133 0 0 0-2.93-3.1V6.634a2.133 2.133 0 1 0-4.267 0v6.588a2.134 2.134 0 0 0-2.931.082" clipRule="evenodd" /></svg>;
+export default SvgTrade;

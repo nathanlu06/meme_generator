@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SvgInfo = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" {...props}><path fill="#fff" stroke="#fff" strokeLinecap="round" strokeLinejoin="round" d="M12 2.59a1.49 1.49 0 1 0 0 2.98h.01a1.49 1.49 0 0 0 0-2.98zm1.5 7.431a1.49 1.49 0 0 0-2.98-.003l-.01 9.9a1.49 1.49 0 0 0 2.98.004z" /></svg>;
+export default SvgInfo;

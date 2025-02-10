@@ -1,0 +1,3 @@
+import type { SVGProps } from "react";
+const SvgSend = (props: SVGProps<SVGSVGElement>) => <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" {...props}><path fill="#fff" fillRule="evenodd" d="M5.558 11.037a2.54 2.54 0 0 1 0-3.62L9.87 3.15c1.01-1 2.65-1 3.66 0l4.312 4.266a2.54 2.54 0 0 1 0 3.62 2.61 2.61 0 0 1-3.554.099v7.905c0 1.414-1.159 2.56-2.588 2.56s-2.587-1.146-2.587-2.56v-7.905a2.61 2.61 0 0 1-3.555-.098" clipRule="evenodd" /></svg>;
+export default SvgSend;
